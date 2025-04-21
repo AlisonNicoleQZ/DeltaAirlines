@@ -15,7 +15,7 @@ go
 					id_pasajero int primary key identity(1,1),
 					cedula int not null,
 					nombre nvarchar(50),
-					apellio nvarchar(50),
+					apellido nvarchar(50),
 					correo nvarchar(65),
 					telefono nvarchar(10),
 					direccion nvarchar,
